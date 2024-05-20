@@ -1,6 +1,6 @@
-## Eyes of Ice and Fire
+# Eyes of Ice and Fire
 
-## Description
+### Description
 Took me some time to discover that there were bigger dragons lurking in the depths, and now that I found that out I'm crazy about them! Sadly there wasn't an easy way to find those dragons, now there is! This mod adds items similar to eyes of ender that help you locate nearby dragons from the Ice and Fire mod.
 
 This is not the same mod as Eye of Dragons but it is my attempt to bring it to the most recent version of Minecraft.
