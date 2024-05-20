@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eyesoficeandfire:item/eye_of_fire_dragon"
+  }
+}

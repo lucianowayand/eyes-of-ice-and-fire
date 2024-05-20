@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "iceandfire:ice_dragon_heart"
+    }
+  },
+  "result": {
+    "item": "eyesoficeandfire:eye_of_ice_dragon"
+  }
+}
