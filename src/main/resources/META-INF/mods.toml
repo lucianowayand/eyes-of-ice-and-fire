@@ -7,8 +7,7 @@ issueTrackerURL="https://github.com/lucianowayand/eyes-of-ice-and-fire/issues" #
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-# A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+displayURL="https://github.com/lucianowayand/eyes-of-ice-and-fire"
 logoFile="logo.png"
 credits="Thanks to MKuckert for the original mod."
 authors="${mod_authors}"
