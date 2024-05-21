@@ -10,7 +10,7 @@ This is not the same mod as Eye of Dragons but it is my attempt to bring it to t
 * Citadel
 
 ### Crafting
-The eyes are crafted by combining an Eye of Ender with a dragon heart. The used heart will determine what kind of dragon the eyes will seek. It searches for entities inside your render distance and it may not find any dragons around depending on how far you are from one and your render distance size. As with the vanilla eyes of ender, it may break, so make sure to bring more than one on your adventures!
+The eyes are crafted by combining an Eye of Ender with a bottle of dragon blood. The used blood vial will determine what kind of dragon the eyes will seek. It searches for entities inside your render distance and it may not find any dragons around depending on how far you are from one and your render distance size. As with the vanilla eyes of ender, it may break, so make sure to bring more than one on your adventures!
 
 ### Installation
 Ensure you have installed Minecraft Forge for the appropriate Minecraft version.
