@@ -37,7 +37,7 @@ public class EnderEyes extends Item {
 
         EntityDragonBase dragonFound = getClosestDragon(levelIn, playerIn, type);
         if (dragonFound == null) {
-            playerIn.displayClientMessage(Component.translatable("chat.no_dragons_found"), false);
+            playerIn.displayClientMessage(Component.translatable("chat.no_dragons_found"), true);
             return InteractionResultHolder.pass(itemstack);
         } else {
             playerIn.startUsingItem(handIn);
