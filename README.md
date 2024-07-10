@@ -24,4 +24,4 @@ Right-click to use the eye and it will guide you towards the nearest dragon of t
 Keep in mind, the eye may break upon use, so bring extras!
 
 ### Contribution
-Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change
