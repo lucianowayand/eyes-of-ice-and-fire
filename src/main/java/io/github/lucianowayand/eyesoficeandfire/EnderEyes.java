@@ -42,7 +42,7 @@ public class EnderEyes extends Item {
         } else {
             playerIn.startUsingItem(handIn);
             if (levelIn instanceof ServerLevel) {
-                BlockPos blockpos = BlockPos.containing(dragonFound.getHeadPosition());
+                BlockPos blockpos = new BlockPos(dragonFound.getHeadPosition().x, dragonFound.getHeadPosition().y, dragonFound.getHeadPosition().z);
                 EyeOfEnder eye_of_ender_entity = new EyeOfEnder(levelIn, playerIn.getX(), playerIn.getY(0.5D), playerIn.getZ());
                 eye_of_ender_entity.setItem(itemstack);
                 eye_of_ender_entity.signalTo(blockpos);
