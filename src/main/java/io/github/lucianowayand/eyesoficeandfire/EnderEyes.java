@@ -5,6 +5,8 @@ import com.github.alexthe666.iceandfire.entity.EntityDragonBase;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -37,7 +39,8 @@ public class EnderEyes extends Item {
 
         EntityDragonBase dragonFound = getClosestDragon(levelIn, playerIn, type);
         if (dragonFound == null) {
-            playerIn.displayClientMessage(Component.translatable("chat.no_dragons_found"), true);
+            playerIn.displayClientMessage(new TranslatableComponent("chat.no_dragons_found") {
+            }, true);
             return InteractionResultHolder.pass(itemstack);
         } else {
             playerIn.startUsingItem(handIn);
